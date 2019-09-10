@@ -2,7 +2,7 @@
 			display: grid;
 			grid-template-areas: 
 			"header header header header header"
-			"menuBar menuBar menuBar menuBar menuBar"
+			"mainBar mainBar mainBar mainBar mainBar"
 			"menu menu content content content"	
 			"menu menu content content content"
 			"footer footer footer footer footer";	
@@ -12,7 +12,7 @@
 			background-color: green;
 			grid-area: header;
 		}
-		.menuBar{
+		.mainBar{
 			background-color: blue;
 			grid-area: menuBar;
 		}
