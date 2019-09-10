@@ -1,0 +1,30 @@
+.container{
+			display: grid;
+			grid-template-areas: 
+			"header header header header header"
+			"menuBar menuBar menuBar menuBar menuBar"
+			"menu menu content content content"	
+			"menu menu content content content"
+			"footer footer footer footer footer";	
+			grid-template-columns: 100px auto;	
+		}
+		.header{
+			background-color: green;
+			grid-area: header;
+		}
+		.menuBar{
+			background-color: blue;
+			grid-area: menuBar;
+		}
+		.menu{
+			background-color: yellow;
+			grid-area: menu;
+		}
+		.content{
+			background-color: pink;
+			grid-area: content;
+		}
+		.footer{
+			background-color: red;
+			grid-area: footer;
+		}
